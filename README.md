@@ -1,4 +1,4 @@
-# 💰 Personal Finance Tracker
+# 💰 Expense Tracker API
 
 A full-stack Personal Finance Tracker built with **Go (Gin)**, **React**, **MySQL**, and **Docker**. The application enables users to securely manage income and expenses, visualize financial summaries, and export transaction reports as PDFs.
 
