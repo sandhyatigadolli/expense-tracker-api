@@ -1,0 +1,9 @@
+basePath: /
+host: localhost:8082
+info:
+  contact: {}
+  description: Expense Tracker Backend using Go, Gin, MySQL and JWT
+  title: Expense Tracker API
+  version: "1.0"
+paths: {}
+swagger: "2.0"

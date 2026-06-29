@@ -1,0 +1,54 @@
+version: "3.9"
+
+services:
+
+  mysql:
+    image: mysql:8.0
+    container_name: expense-mysql
+
+    restart: always
+
+    environment:
+      MYSQL_ROOT_PASSWORD: mypassword
+      MYSQL_DATABASE: expense_tracker_go
+
+    ports:
+      - "3307:3306"
+
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  backend:
+    build: .
+
+    container_name: expense-backend
+
+    depends_on:
+      - mysql
+
+    ports:
+      - "8082:8082"
+
+    environment:
+      DB_USER: root
+      DB_PASSWORD: mypassword
+      DB_NAME: expense_tracker_go
+      DB_HOST: mysql
+      DB_PORT: 3306
+      JWT_SECRET: my-secret-key
+      PORT: 8082
+
+  frontend:
+    build:
+      context: ./frontend
+
+    container_name: expense-frontend
+
+    depends_on:
+      - backend
+
+    ports:
+      - "5173:5173"
+
+volumes:
+  mysql_data:

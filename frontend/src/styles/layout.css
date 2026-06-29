@@ -1,0 +1,102 @@
+<div className="dashboard-container">
+  <div className="dashboard-card">
+    <h1 className="dashboard-title">Expense Tracker Dashboard</h1>
+
+    {/* Total Card - Centered */}
+    <div className="summary-card">
+      <h3>Total Spent</h3>
+      <h1>₹2500</h1>
+      <p>4 Expenses Recorded</p>
+    </div>
+
+    {/* Content Wrapper - Form Left, Expenses Right */}
+    <div className="content-wrapper">
+      {/* Left: Add Expense Form */}
+      <div className="form-section">
+        <h2 className="section-title">Add Expense</h2>
+        <form className="expense-form">
+          <input 
+            type="number" 
+            placeholder="Amount" 
+            required 
+          />
+          <input 
+            type="text" 
+            placeholder="Category" 
+            required 
+          />
+          <input 
+            type="text" 
+            placeholder="Description" 
+            required 
+          />
+          <button type="submit" className="submit-btn">
+            Add Expense
+          </button>
+        </form>
+      </div>
+
+      {/* Right: Expenses List */}
+      <div className="expenses-section">
+        <h2 className="section-title">Expenses</h2>
+        <ul className="expense-list">
+          <li className="expense-item">
+            <div className="expense-info">
+              <div className="expense-category">Food</div>
+              <div className="expense-description">Dinner</div>
+            </div>
+            <div className="expense-amount-wrapper">
+              <span className="expense-amount">₹700</span>
+              <div className="action-buttons">
+                <button className="edit-btn">Edit</button>
+                <button className="delete-btn">Delete</button>
+              </div>
+            </div>
+          </li>
+
+          <li className="expense-item">
+            <div className="expense-info">
+              <div className="expense-category">Travel</div>
+              <div className="expense-description">Travel</div>
+            </div>
+            <div className="expense-amount-wrapper">
+              <span className="expense-amount">₹500</span>
+              <div className="action-buttons">
+                <button className="edit-btn">Edit</button>
+                <button className="delete-btn">Delete</button>
+              </div>
+            </div>
+          </li>
+
+          <li className="expense-item">
+            <div className="expense-info">
+              <div className="expense-category">Shopping</div>
+              <div className="expense-description">Shopping</div>
+            </div>
+            <div className="expense-amount-wrapper">
+              <span className="expense-amount">₹300</span>
+              <div className="action-buttons">
+                <button className="edit-btn">Edit</button>
+                <button className="delete-btn">Delete</button>
+              </div>
+            </div>
+          </li>
+
+          <li className="expense-item">
+            <div className="expense-info">
+              <div className="expense-category">Bills</div>
+              <div className="expense-description">Bills</div>
+            </div>
+            <div className="expense-amount-wrapper">
+              <span className="expense-amount">₹1000</span>
+              <div className="action-buttons">
+                <button className="edit-btn">Edit</button>
+                <button className="delete-btn">Delete</button>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
