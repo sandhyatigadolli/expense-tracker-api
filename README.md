@@ -34,10 +34,6 @@ A full-stack Personal Finance Tracker built with **Go (Gin)**, **React**, **MySQ
 ### 📄 PDF Export
 - Export transaction history as PDF
 
-### 📚 API Documentation
-- Swagger UI integrated
-- RESTful APIs
-
 ### 🐳 Docker Support
 - Dockerized Backend
 - Dockerized Frontend
