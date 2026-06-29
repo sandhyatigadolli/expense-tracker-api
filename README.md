@@ -177,12 +177,6 @@ Backend:
 http://localhost:8082
 ```
 
-Swagger:
-
-```
-http://localhost:8082/swagger/index.html
-```
-
 ---
 
 # 📡 API Endpoints
@@ -223,11 +217,23 @@ http://localhost:8082/swagger/index.html
 Add screenshots of:
 
 - Login Page
+  <img width="1907" height="959" alt="Screenshot (542)" src="https://github.com/user-attachments/assets/080bacf5-8a94-4315-a396-9656acfa66ce" />
+
 - Register Page
+<img width="1904" height="972" alt="Screenshot (543)" src="https://github.com/user-attachments/assets/0c68c481-d566-412e-b3fb-339a8bf90281" />
+
 - Dashboard
+ <img width="1904" height="973" alt="Screenshot (544)" src="https://github.com/user-attachments/assets/653213b7-eb5c-450e-827d-c703c8f1839c" />
+
+
+
 - Add Transaction Modal
+  <img width="1903" height="969" alt="Screenshot (547)" src="https://github.com/user-attachments/assets/62020c58-0a25-441c-8b73-5aa48255b5ae" />
+
 - Analytics Page
-- Swagger UI
+   <img width="1920" height="987" alt="Screenshot (545)" src="https://github.com/user-attachments/assets/1ff3e79a-427a-4cec-b972-e23810294146" />
+   <img width="1911" height="960" alt="Screenshot (546)" src="https://github.com/user-attachments/assets/4c3a23c5-57e1-45d0-a246-0b59cacb2b71" />
+
 
 ---
 
